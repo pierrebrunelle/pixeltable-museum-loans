@@ -1,0 +1,17 @@
+[project]
+name = "pixeltable-museum-loans"
+version = "0.1.0"
+description = "Museum object loan tracker API with overdue flags and urgency bands, explorable from the pxt CLI and dashboard - built with Pixeltable"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [{ name = "Pierre Brunelle" }]
+keywords = ["pixeltable", "multimodal", "ai", "fastapi", "computed-columns", "data-infrastructure", "museum-loans"]
+dependencies = [
+    "pixeltable[serve]>=0.7.14",
+]
+
+[project.urls]
+Homepage = "https://pixeltable.com"
+Documentation = "https://docs.pixeltable.com"
+Pixeltable = "https://github.com/pixeltable/pixeltable"
